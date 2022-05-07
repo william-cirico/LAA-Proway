@@ -1,0 +1,51 @@
+Desenvolver um sistema para gerenciar a folha de pagamentos, implemente as seguintes
+funcionalidades.
+
+● Cadastro - Informe os seguintes dados:
+    ○ Nome do colaborador;
+    ○ Cargo;
+    ○ Quantidade de horas extras;
+    ○ Quantidade de faltas;
+    ○ Se adere ao plano de saúde;
+
+● Listar - Exiba os seguintes dados de todos os colaboradores:
+    ○ Nome do colaborador;
+    ○ Cargo;
+    ○ Salário bruto;
+    ○ Quantidade de horas extras;
+    ○ Valor recebido pelas horas extras;
+    ○ Valor extra recebido pela quantidade faltas;
+    ○ Valor a ser descontado do plano de saúde;
+    ○ Desconto do vale transporte;
+    ○ Desconto do vale alimentação;
+    ○ Desconto do imposto de renda;
+    ○ Salário líquido.
+
+● Listar um funcionário pelo nome;
+
+● Remover - Remova o funcionário pelo nome;
+
+● Sair - Finaliza o sistema.
+
+● Tabela de valores por cargo
+Desenvolvedor Jr                        R$2.000,00   R$12,50    R$200,00   R$360,00
+Desenvolvedor Pleno                     R$3.200,00   R$18,90    R$320,00   R$420,00
+Desenvolvedor Sênior                    R$5.000,00   R$25,00    R$500,00   R$500,00
+DBA (Administrador de banco de dados)   R$7.000,00   R$45,00    R$700,00   R$635,00
+Arquiteto de Software                   R$8.500,00   R$70,60    R$850,00   R$765,00
+
+● Cálculo de horas extras
+Quantidade de horas extras multiplicado pelo valor hora extra recebido.
+
+● Vale transporte
+Descontado 6% sobre o salário bruto.
+
+● Prêmio faltas
+Se não houver faltas, haverá um acréscimo de R$ 100,00 ao salário líquido.
+
+● Plano de saúde
+Se for adepto ao plano de saúde, haverá um desconto de R$ 400,00 no salário líquido.
+
+● Cálculo do salário líquido
+(salário bruto + horas extras trabalhadas + prêmio faltas) - (vale transporte + vale alimentação +
+plano de saúde + imposto de renda)
