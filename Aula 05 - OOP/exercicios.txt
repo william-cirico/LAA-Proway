@@ -1,0 +1,48 @@
+1) Implemente a classe Aluno que possui os seguintes atributos:
+    - Matricula
+    - Nome
+    - 2 notas de prova
+    - 1 nota de trabalho
+Essa classe deve conter os seguintes métodos:
+    - getMedia()
+        // Calcula a média do aluno com base nos seguintes critérios:
+            * Prova tem peso 3
+            * Trabalho tem peso 2
+
+    - getSituacao()
+        // Informa se a situação do aluno com base na média:
+            0 à 4 - Reprovado
+            5 à 6 - Recuperação
+            7 à 10 - Aprovado
+
+2) Crie uma clase Agenda que pode armazenar 10 Pessoas e que seja capaz
+de realizar as seguintes operações:
+    - armazenarPessoa() -> Adiciona uma pessoa na agenda.
+    - removerPessoa() -> Remove ume pessoa pelo nome da agenda.
+    - buscarPessoa() -> Busca uma pessoa pelo nome na agenda.
+    - imprimirAgenda() -> Imprime as informações de todas as pessoas da agenda.
+Cada Pessoa deve conter um nome e telefone.
+
+3) Escreva uma clase Voo que permite controlar a ocupação das vagas de um Voo.
+Cada voo possui no máximo 100 passageiros. A classe deve conter os seguintes métodos.
+
+    - construtor() -> Para criar um voo é necessário o número do voo e a data.
+    - proximaCadeiraLivre() -> Retorna o número da próxima cadeira livre.
+    - verifica() -> Verifica se o número da cadeira recebida como parâmetro está ocupado.
+    - ocupa() -> Ocupa determinada cadeira do voo, cujo número é recebido como parâmetro. Retorna um booleano.
+    - vagas() -> Retorna o número de cadeiras vagas (não ocupadas) disponíveis no vôo.
+
+4) Seguindo os princípios de encapsulamento crie a classe Funcionário que possui
+os seguintes atributos:
+    - Matrícula
+    - Nome
+    - Salário
+
+* Obs.: Não deve ser possível alterar a matrícula.
+
+* Regras para validações dos atributos:
+    - Matrícula: Deve ser um número inteiro positivo;
+    - Nome: Deve conter um espaço e ter no mínimo 6 caracteres;
+    - Salário: Deve ter um valor mínimo de R$ 465,00.
+
+
