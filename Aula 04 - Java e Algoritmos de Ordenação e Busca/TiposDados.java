@@ -1,4 +1,4 @@
-class TipoDados {
+public class TiposDados {
     public static void main(String[] args) {
         // Tipos primitivos
         int inteiro = 2;

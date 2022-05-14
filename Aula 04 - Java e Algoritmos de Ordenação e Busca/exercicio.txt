@@ -27,12 +27,12 @@ funcionalidades.
 
 ● Sair - Finaliza o sistema.
 
-● Tabela de valores por cargo
-Desenvolvedor Jr                        R$2.000,00   R$12,50    R$200,00   R$360,00
-Desenvolvedor Pleno                     R$3.200,00   R$18,90    R$320,00   R$420,00
-Desenvolvedor Sênior                    R$5.000,00   R$25,00    R$500,00   R$500,00
-DBA (Administrador de banco de dados)   R$7.000,00   R$45,00    R$700,00   R$635,00
-Arquiteto de Software                   R$8.500,00   R$70,60    R$850,00   R$765,00
+● Tabela de valores por cargo           Salário B.   Valor H.E.   I.R.       Vale Alimentação
+Desenvolvedor Jr                        R$2.000,00   R$12,50      R$200,00   R$360,00
+Desenvolvedor Pleno                     R$3.200,00   R$18,90      R$320,00   R$420,00
+Desenvolvedor Sênior                    R$5.000,00   R$25,00      R$500,00   R$500,00
+DBA (Administrador de banco de dados)   R$7.000,00   R$45,00      R$700,00   R$635,00
+Arquiteto de Software                   R$8.500,00   R$70,60      R$850,00   R$765,00
 
 ● Cálculo de horas extras
 Quantidade de horas extras multiplicado pelo valor hora extra recebido.
