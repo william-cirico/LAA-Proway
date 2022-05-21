@@ -1,0 +1,44 @@
+3) Crie a classe Imovel, que possui um endereço e um preço.
+    a. crie uma classe Novo, que herda Imovel e possui um adicional no preço. Crie
+    métodos de acesso e impressão deste valor adicional.        
+    b. crie uma classe Velho, que herda Imovel e possui um desconto no preço. Crie
+    métodos de acesso e impressão para este desconto.
+
+    Ambas as classes Novo e Velho devem implementar um método calculaTotal() que informa
+    o valor com o adicional ou com o desconto.
+    
+4) Crie uma classe Animal que possua os seguintes atributos:
+    - nome
+    - comprimento
+    - numeroPatas
+    - cor
+    - ambiente
+    - velocidadeMedia
+
+Essa classe deve possuir o método mostrarDados()
+que mostra um relatório contendo as informações do Animal.
+
+Crie uma classe Peixe que herda de animal e possua o atributo
+caracteristica. Essa classe deve implementar o método mostrarDadoPeixe()
+que mostra um relatório contendo as informações do Peixe.
+
+Crie uma classe Mamifero que herda de animal e possua o atributo
+alimento. Essa classe deve implementer o método mostrarDadosMamifero()
+que mostra um relatório contendo as informações do Mamífero.
+
+Após isso crie um objeto de cada classe e teste os métodos.
+
+5) Crie uma classe "Produto" que possua os atributos "nomeLoja" e "preco". 
+Crie também o atributo "descrição" e seu método chamado "getDescrição" que 
+retorna uma string com o simples conteúdo "Produto de informática". 
+Crie duas classes filhas de "Produto", que serão "Mouse" com o atributo
+"tipo" e "Livro" com o atributo "autor", no método construtor de cada uma
+dessas classes passe como argumento a descrição desse produto, por exemplo,
+Mouse("Kabum", 50, "Mouse ótico, Saída USB. 1.600 dpi", "Gamer"); 
+Crie o método "getDescrição" que retorna a descrição que foi passada no argumento do construtor
+concatenada com o atributo que a classe tiver, "autor" no caso de livro e
+"tipo" no caso de mouse, esse método deve ter a mesma assinatura do método
+"getDescrição" da classe pai "Produto". 
+Após isso crie um vetor chamado carrinho e adicione 5 produtos (que podem ser Mouse ou Livro) dentro. 
+E depois chame a descrição de cada um dos produtos.
+O método carrinho também deve possuir o método getTotal() que retorna o preço total dos produtos no carrinho.
