@@ -45,4 +45,21 @@ os seguintes atributos:
     - Nome: Deve conter um espaço e ter no mínimo 6 caracteres;
     - Salário: Deve ter um valor mínimo de R$ 465,00.
 
+5) Crie uma classe Ponto2D para representar um ponto no espaço cartesiano. Essa classe
+    deve ter os atributos: x e y.
+    Essa classe deve ter o método estático temEixoComum(pontoA, pontoB) que retorna true
+    se as duas classes tiverem as mesmas coordenadas para algum dos eixos.
+    Exemplo:
+    (1, 2) e (1, -17) -> true
+    (13, -8) e (8, -22) -> false
 
+6) Crie uma classe Calculador que implemente os seguintes métodos estáticos:
+    - soma(n1, n2): Retorna a soma de n1+n2
+    - subtracao(n1, n2): Retorna a subtração de n1-n2
+    - multiplicacao(n1, n2): Retorna a multiplicação de n1*n2
+    - divisao(n1, n2): Retorna a divisão de n1/n2
+    Testes:
+    Calculadora.soma(1, 2) // 3
+    Calculadora.subtracao(2, 3) // -1
+    Calculadora.multiplicacao(5, 2) // 10
+    Calculadora.divisao(3, 3) // 1
