@@ -19,11 +19,11 @@ Essa classe deve possuir o método mostrarDados()
 que mostra um relatório contendo as informações do Animal.
 
 Crie uma classe Peixe que herda de animal e possua o atributo
-caracteristica. Essa classe deve implementar o método mostrarDadoPeixe()
+caracteristica. Essa classe deve implementar o método mostrarDados()
 que mostra um relatório contendo as informações do Peixe.
 
 Crie uma classe Mamifero que herda de animal e possua o atributo
-alimento. Essa classe deve implementer o método mostrarDadosMamifero()
+alimento. Essa classe deve implementer o método mostrarDados()
 que mostra um relatório contendo as informações do Mamífero.
 
 Após isso crie um objeto de cada classe e teste os métodos.
@@ -41,4 +41,4 @@ concatenada com o atributo que a classe tiver, "autor" no caso de livro e
 "getDescrição" da classe pai "Produto". 
 Após isso crie um vetor chamado carrinho e adicione 5 produtos (que podem ser Mouse ou Livro) dentro. 
 E depois chame a descrição de cada um dos produtos.
-O método carrinho também deve possuir o método getTotal() que retorna o preço total dos produtos no carrinho.
+A classe carrinho também deve possuir o método getTotal() que retorna o preço total dos produtos no carrinho.
